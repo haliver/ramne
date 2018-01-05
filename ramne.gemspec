@@ -8,4 +8,10 @@ Gem::Specification.new do |s|
   s.description   = 'All file names randomly rename in the directory.'
   s.homepage      = 'https://github.com/haliver/ramne'
   s.license       = 'MIT'
+  s.bindir        = "exe"
+  s.executables   = s.files.grep(%r{^exe/}) { |f| File.basename(f) }
+
+  s.add_development_dependency "bundler", "~> 1.15"
+  s.add_development_dependency "rake", "~> 10.0"
+  s.add_development_dependency "rspec", "~> 3.0"
 end
