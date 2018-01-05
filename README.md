@@ -3,34 +3,43 @@
 All file names randomly rename in the directory.
 
 ## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'ramne'
 ```
-git clone git@github.com:haliver/ramne.git
-```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install ramne
 
 ## How to use?
 
-```
-ruby ramne.rb ~/works/
-```
-or
-```
-ruby ramne.rb ~/works/ 8
-```
+    $ bin/ramne ~/target_directory/
+
+Or
+
+    $ bin/ramne ~/target_directory/ 8
 
 ## Result
 
 ```
-$ ruby ramne.rb ~/works/
-$ ~/works/zOKhbRLA.jpg -> ~/works/-omFGg49.jpg
-$ ~/works/SLET0txF.pptx -> ~/works/Xe4JlyaY.pptx
-$ ~/works/K_08H7ll.rb -> ~/works/hEn0eWU7.rb
-$ ~/works/zMHs5Z1Q.rb -> ~/works/sa__Taqz.rb
-$ ~/works/bH5E1hZq -> ~/works/iz3YJrhn
-$ ~/works/dwvmJWTw.jpg -> ~/works/w1af8YPT.jpg
-$ ~/works/Ub9Vel0o.pptx -> ~/works/d62OInL-.pptx
-$ ~/works/B5paZQMi.png -> ~/works/zcL6iDM6.png
-$ ~/works/FDfzBZwS.docx -> ~/works/e6m5kwxm.docx
-$ ~/works/HTNzVDdh.png -> ~/works/TSFQZLqP.png
+$ bin/ramne ~/target_directory/
+$ ~/target_directory/zOKhbRLA.jpg -> ~/target_directory/-omFGg49.jpg
+$ ~/target_directory/SLET0txF.pptx -> ~/target_directory/Xe4JlyaY.pptx
+$ ~/target_directory/K_08H7ll.rb -> ~/target_directory/hEn0eWU7.rb
+$ ~/target_directory/zMHs5Z1Q.rb -> ~/target_directory/sa__Taqz.rb
+$ ~/target_directory/bH5E1hZq -> ~/target_directory/iz3YJrhn
+$ ~/target_directory/dwvmJWTw.jpg -> ~/target_directory/w1af8YPT.jpg
+$ ~/target_directory/Ub9Vel0o.pptx -> ~/target_directory/d62OInL-.pptx
+$ ~/target_directory/B5paZQMi.png -> ~/target_directory/zcL6iDM6.png
+$ ~/target_directory/FDfzBZwS.docx -> ~/target_directory/e6m5kwxm.docx
+$ ~/target_directory/HTNzVDdh.png -> ~/target_directory/TSFQZLqP.png
 ```
 
 ## License
