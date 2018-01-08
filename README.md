@@ -2,6 +2,8 @@
 
 All file names randomly rename in the directory.
 
+[![Gem Version](https://badge.fury.io/rb/ramne.svg)](https://badge.fury.io/rb/ramne)
+
 ## Installation
 
 Add this line to your application's Gemfile:
